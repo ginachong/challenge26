@@ -1,0 +1,19 @@
+
+#include <iostream>
+#include "circle.h"
+using namespace std;
+
+int main()
+{
+  Circle myCircle;
+
+  myCircle.setRadius(5);
+
+  cout << "The radius of the circle is " << myCircle.getRadius() << endl;
+
+  cout << "The area of the circle is " << myCircle.area() << endl;
+
+  cout << "The circumference of the circle is " << myCircle.circum() << endl;
+
+return 0;
+}
